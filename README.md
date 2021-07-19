@@ -61,7 +61,7 @@ Setup steps for changing the current default configuration to local connection:
    
    server name
 
-Any change of configuration should be applied in this file only.
+Any change of configuration should be applied in this file only -  local_db_config.ini
 
 2. Create a new database with the name: AdsDB on your local MS SQL SERVER.
 3. In DB.py file in DB __init__ constructor , change the default variable from local=False to local=True 
