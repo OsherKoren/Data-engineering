@@ -66,10 +66,10 @@ Any change of configuration should be applied in this file only -  local_db_conf
 2. Create a new database with the name: AdsDB on your local MS SQL SERVER.
 3. In DB.py file in DB __init__ constructor , change the default variable from local=False to local=True 
 
-##The Data
+## The Data
 Random ads data was constructed in the Operations.py file with the method: set_ads_table.
 
-##Description
+## Description
 The program performs 3 operations of sorting the ads as describes below:
 1) Standard sorting. 
 2) K way sorting with chunks. 
