@@ -31,7 +31,7 @@ six==1.16.0
 
 SQLAlchemy==1.4.20
 
-For printing the DataFrame in a more convenience way please add to Operations file the following lines:
+For printing the DataFrame in a more convenience way please add to Operations.py file the following lines:
 
 desired_width=320
 
