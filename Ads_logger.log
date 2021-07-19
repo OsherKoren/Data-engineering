@@ -1,0 +1,342 @@
+2021-07-19 09:42:55,829 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:42:55,844 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:42:55,844 — Ads_logger — INFO — test_connection:22 —  #### ---- Running test connection ---- ####
+2021-07-19 09:42:56,130 — Ads_logger — INFO — test_connection:25 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 09:42:56,130 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:42:56,130 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:42:56,299 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 09:42:56,299 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:42:56,299 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.1707554 seconds ==============================
+2021-07-19 09:42:56,299 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:42:56,299 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:42:56,299 — Ads_logger — INFO — sort_operation:52 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 09:43:02,475 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:43:10,063 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:43:10,063 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 13.7636848 seconds ==============================
+2021-07-19 09:43:10,063 — Ads_logger — INFO — sort_operation:69 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 09:43:10,079 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:43:10,079 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:43:10,079 — Ads_logger — INFO — sort_operation:52 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 09:43:10,101 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:43:10,132 — Ads_logger — INFO — query_in_chunks:128 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,186 — Ads_logger — INFO — query_in_chunks:128 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,264 — Ads_logger — INFO — query_in_chunks:128 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,349 — Ads_logger — INFO — query_in_chunks:128 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,402 — Ads_logger — INFO — query_in_chunks:128 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,486 — Ads_logger — INFO — query_in_chunks:128 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,565 — Ads_logger — INFO — query_in_chunks:128 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,634 — Ads_logger — INFO — query_in_chunks:128 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,719 — Ads_logger — INFO — query_in_chunks:128 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,788 — Ads_logger — INFO — query_in_chunks:128 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 09:43:10,788 — Ads_logger — INFO — query_in_chunks:132 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 09:43:22,822 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:43:36,910 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:43:36,910 — Ads_logger — INFO — wrapper:21 — ==============================sort_chunks Run Time: 26.8305816 seconds ==============================
+2021-07-19 09:43:36,910 — Ads_logger — INFO — sort_operation:69 —  #### ---- Finished Running sort operation No.2 ---- #### 
+2021-07-19 09:43:36,910 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:43:36,910 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:43:36,910 — Ads_logger — INFO — sort_operation:52 —  #### ---- Running sort operation No.3 ---- #### 
+2021-07-19 09:43:36,944 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:43:39,801 — Ads_logger — INFO — query_in_chunks_parallel:172 — -- Got 20000 values from column Data from table RESULTS -- 
+2021-07-19 09:43:39,809 — Ads_logger — INFO — query_in_chunks_parallel:175 — Got all data from column Data from table adsTable 
+2021-07-19 09:43:57,826 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:43:57,826 — Ads_logger — INFO — sort_chunks_parallel:151 — -- Finished with Multi Processing -- Updated 20000 values in column Sorting-step3 in table RESULTS
+2021-07-19 09:44:16,987 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:44:16,987 — Ads_logger — INFO — wrapper:21 — ==============================sort_chunks_parallel Run Time: 40.0822189 seconds ==============================
+2021-07-19 09:44:16,987 — Ads_logger — INFO — sort_operation:69 —  #### ---- Finished Running sort operation No.3 ---- #### 
+2021-07-19 09:44:16,987 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:44:16,987 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:44:27,041 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:44:27,041 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:44:27,041 — Ads_logger — INFO — close_connection:198 —  #### ---- Closing the connection to the database ---- ####
+2021-07-19 09:55:57,658 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:55:57,690 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:55:57,690 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 09:55:57,975 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 09:55:57,975 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:55:57,975 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:55:58,778 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 09:55:58,800 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:55:58,800 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.8259756 seconds ==============================
+2021-07-19 09:55:58,800 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:55:58,800 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:55:58,800 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 09:56:07,028 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:56:14,353 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:56:14,353 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 15.5535789 seconds ==============================
+2021-07-19 09:56:14,353 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 09:56:14,353 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:56:14,353 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:56:14,353 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 09:56:14,401 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:56:14,501 — Ads_logger — INFO — query_in_chunks:138 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 09:56:14,616 — Ads_logger — INFO — query_in_chunks:138 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 09:56:14,717 — Ads_logger — INFO — query_in_chunks:138 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 09:56:14,817 — Ads_logger — INFO — query_in_chunks:138 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 09:56:14,902 — Ads_logger — INFO — query_in_chunks:138 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 09:56:14,955 — Ads_logger — INFO — query_in_chunks:138 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 09:56:15,018 — Ads_logger — INFO — query_in_chunks:138 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 09:56:15,087 — Ads_logger — INFO — query_in_chunks:138 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 09:56:15,187 — Ads_logger — INFO — query_in_chunks:138 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 09:56:15,272 — Ads_logger — INFO — query_in_chunks:138 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 09:56:15,272 — Ads_logger — INFO — query_in_chunks:142 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 09:56:27,048 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:59:13,041 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:59:13,065 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:59:13,065 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 09:59:13,301 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 09:59:13,309 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:59:13,309 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:59:13,490 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 09:59:13,498 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:59:13,498 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.19373079999999998 seconds ==============================
+2021-07-19 09:59:13,498 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:59:13,498 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:59:13,506 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 09:59:21,682 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:59:31,701 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 09:59:31,701 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 18.1971503 seconds ==============================
+2021-07-19 09:59:31,701 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 09:59:31,701 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 09:59:31,701 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 09:59:31,709 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 09:59:31,741 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 09:59:31,765 — Ads_logger — INFO — query_in_chunks:138 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 09:59:31,839 — Ads_logger — INFO — query_in_chunks:138 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 09:59:31,928 — Ads_logger — INFO — query_in_chunks:138 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 09:59:31,992 — Ads_logger — INFO — query_in_chunks:138 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,057 — Ads_logger — INFO — query_in_chunks:138 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,121 — Ads_logger — INFO — query_in_chunks:138 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,185 — Ads_logger — INFO — query_in_chunks:138 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,251 — Ads_logger — INFO — query_in_chunks:138 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,347 — Ads_logger — INFO — query_in_chunks:138 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,404 — Ads_logger — INFO — query_in_chunks:138 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 09:59:32,412 — Ads_logger — INFO — query_in_chunks:142 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 09:59:41,535 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:06:46,316 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:06:46,347 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:06:46,347 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:07:23,433 — Ads_logger — ERROR — test_connection:28 —  #### --- Tested Connection --- Failed to connect to the database #### --- OperationalError("(pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')")
+2021-07-19 10:08:54,408 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:08:54,430 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:08:54,430 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:08:54,731 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:08:54,731 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:08:54,731 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:08:54,862 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:08:54,878 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:08:54,894 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.15583530000000012 seconds ==============================
+2021-07-19 10:08:54,894 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:08:54,894 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:08:54,894 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:08:59,863 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:09:05,261 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:09:05,261 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 10.3695901 seconds ==============================
+2021-07-19 10:09:05,261 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 10:09:05,261 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:09:05,261 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:09:05,261 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 10:09:05,283 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:09:05,314 — Ads_logger — INFO — query_in_chunks:155 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,346 — Ads_logger — INFO — query_in_chunks:155 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,383 — Ads_logger — INFO — query_in_chunks:155 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,446 — Ads_logger — INFO — query_in_chunks:155 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,484 — Ads_logger — INFO — query_in_chunks:155 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,531 — Ads_logger — INFO — query_in_chunks:155 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,569 — Ads_logger — INFO — query_in_chunks:155 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,616 — Ads_logger — INFO — query_in_chunks:155 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,647 — Ads_logger — INFO — query_in_chunks:155 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,700 — Ads_logger — INFO — query_in_chunks:155 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 10:09:05,700 — Ads_logger — INFO — query_in_chunks:159 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 10:09:12,194 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:10:11,865 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:10:11,881 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:10:11,881 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:10:12,119 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:10:12,119 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:10:12,119 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:10:12,282 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:10:12,298 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:10:12,298 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.18155169999999998 seconds ==============================
+2021-07-19 10:10:12,313 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:10:12,313 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:10:12,313 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:10:19,572 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:10:32,137 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:10:32,152 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 19.8382125 seconds ==============================
+2021-07-19 10:10:32,152 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 10:10:32,152 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:10:32,152 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:10:32,152 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 10:10:32,190 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:10:32,237 — Ads_logger — INFO — query_in_chunks:155 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,322 — Ads_logger — INFO — query_in_chunks:155 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,422 — Ads_logger — INFO — query_in_chunks:155 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,507 — Ads_logger — INFO — query_in_chunks:155 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,553 — Ads_logger — INFO — query_in_chunks:155 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,638 — Ads_logger — INFO — query_in_chunks:155 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,691 — Ads_logger — INFO — query_in_chunks:155 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,754 — Ads_logger — INFO — query_in_chunks:155 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 10:10:32,807 — Ads_logger — INFO — query_in_chunks:155 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 10:10:33,255 — Ads_logger — INFO — query_in_chunks:155 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 10:10:33,270 — Ads_logger — INFO — query_in_chunks:159 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 10:10:43,360 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:16:24,981 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:16:25,009 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:16:25,009 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:16:25,649 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:16:25,649 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:16:25,649 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:16:25,850 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:16:25,850 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:16:25,865 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.21390280000000006 seconds ==============================
+2021-07-19 10:16:25,865 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:16:25,865 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:16:25,865 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:16:33,838 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:16:41,280 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:16:41,280 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 15.415285699999998 seconds ==============================
+2021-07-19 10:16:41,280 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 10:16:41,280 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:16:41,280 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:16:41,280 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 10:16:41,327 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:16:41,380 — Ads_logger — INFO — query_in_chunks:157 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,453 — Ads_logger — INFO — query_in_chunks:157 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,533 — Ads_logger — INFO — query_in_chunks:157 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,601 — Ads_logger — INFO — query_in_chunks:157 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,657 — Ads_logger — INFO — query_in_chunks:157 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,721 — Ads_logger — INFO — query_in_chunks:157 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,797 — Ads_logger — INFO — query_in_chunks:157 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,855 — Ads_logger — INFO — query_in_chunks:157 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,909 — Ads_logger — INFO — query_in_chunks:157 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,985 — Ads_logger — INFO — query_in_chunks:157 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 10:16:41,993 — Ads_logger — INFO — query_in_chunks:161 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 10:16:53,316 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:19:33,305 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:19:33,329 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:19:33,329 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:19:33,586 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:19:33,586 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:19:33,594 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:19:33,755 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:19:33,763 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:19:33,763 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.17473609999999984 seconds ==============================
+2021-07-19 10:19:33,771 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:19:33,771 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:19:33,771 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:19:41,839 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:19:49,832 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:19:49,832 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 16.0669528 seconds ==============================
+2021-07-19 10:19:49,840 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 10:19:49,840 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:19:49,840 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:19:49,840 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 10:19:49,872 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:19:49,906 — Ads_logger — INFO — query_in_chunks:157 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 10:19:49,978 — Ads_logger — INFO — query_in_chunks:157 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,069 — Ads_logger — INFO — query_in_chunks:157 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,143 — Ads_logger — INFO — query_in_chunks:157 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,200 — Ads_logger — INFO — query_in_chunks:157 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,254 — Ads_logger — INFO — query_in_chunks:157 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,326 — Ads_logger — INFO — query_in_chunks:157 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,401 — Ads_logger — INFO — query_in_chunks:157 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,464 — Ads_logger — INFO — query_in_chunks:157 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,537 — Ads_logger — INFO — query_in_chunks:157 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 10:19:50,545 — Ads_logger — INFO — query_in_chunks:161 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 10:20:00,610 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:20:55,409 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:20:55,433 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:20:55,433 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:20:55,838 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:20:55,838 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:20:55,838 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:20:55,958 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:20:55,976 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:20:55,983 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.14130550000000008 seconds ==============================
+2021-07-19 10:20:55,983 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:20:55,983 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:20:55,983 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:21:07,710 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:21:15,561 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:21:15,561 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 19.580029699999997 seconds ==============================
+2021-07-19 10:21:15,561 — Ads_logger — INFO — sort_operation:70 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 10:21:15,561 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:21:15,561 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:21:15,569 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 10:21:15,602 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:21:15,645 — Ads_logger — INFO — query_in_chunks:157 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 10:21:15,717 — Ads_logger — INFO — query_in_chunks:157 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 10:21:15,810 — Ads_logger — INFO — query_in_chunks:157 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 10:21:15,879 — Ads_logger — INFO — query_in_chunks:157 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 10:21:15,948 — Ads_logger — INFO — query_in_chunks:157 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 10:21:16,020 — Ads_logger — INFO — query_in_chunks:157 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 10:21:16,096 — Ads_logger — INFO — query_in_chunks:157 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 10:21:16,170 — Ads_logger — INFO — query_in_chunks:157 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 10:21:16,234 — Ads_logger — INFO — query_in_chunks:157 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 10:21:16,298 — Ads_logger — INFO — query_in_chunks:157 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 10:21:16,306 — Ads_logger — INFO — query_in_chunks:161 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 10:21:26,117 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:28:35,868 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:28:35,900 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:28:35,900 — Ads_logger — INFO — test_connection:23 —  #### ---- Running test connection ---- ####
+2021-07-19 10:28:36,300 — Ads_logger — INFO — test_connection:26 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:28:36,300 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:28:36,300 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:28:36,529 — Ads_logger — INFO — check_if_table_exists:71 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:28:36,546 — Ads_logger — INFO — check_number_of_rows:83 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:28:36,554 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.2524822 seconds ==============================
+2021-07-19 10:28:36,554 — Ads_logger — INFO — __init__:27 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:28:36,554 — Ads_logger — INFO — __init__:41 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:28:36,554 — Ads_logger — INFO — sort_operation:53 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:28:48,760 — Ads_logger — INFO — df_to_sql:93 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:31:53,543 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:31:53,567 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:31:53,567 — Ads_logger — INFO — test_connection:22 —  #### ---- Running test connection ---- ####
+2021-07-19 10:31:53,751 — Ads_logger — INFO — test_connection:25 —  #### ---- Tested Connection ---- Connected to the database #### ---- 
+2021-07-19 10:31:53,751 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:31:53,751 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:31:53,950 — Ads_logger — INFO — check_if_table_exists:72 —  ---- The table adsTable exists in database AdsDB ---- 
+2021-07-19 10:31:53,950 — Ads_logger — INFO — check_number_of_rows:84 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:31:53,958 — Ads_logger — INFO — wrapper:21 — ==============================set_ads_table Run Time: 0.2011951999999999 seconds ==============================
+2021-07-19 10:31:53,958 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:31:53,958 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:31:53,958 — Ads_logger — INFO — sort_operation:52 —  #### ---- Running sort operation No.1 ---- #### 
+2021-07-19 10:32:00,077 — Ads_logger — INFO — df_to_sql:94 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:32:06,998 — Ads_logger — INFO — df_to_sql:94 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:32:07,006 — Ads_logger — INFO — wrapper:21 — ==============================sort_ads Run Time: 13.0465 seconds ==============================
+2021-07-19 10:32:07,006 — Ads_logger — INFO — sort_operation:69 —  #### ---- Finished Running sort operation No.1 ---- #### 
+2021-07-19 10:32:07,006 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:32:07,006 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:32:07,006 — Ads_logger — INFO — sort_operation:52 —  #### ---- Running sort operation No.2 ---- #### 
+2021-07-19 10:32:07,030 — Ads_logger — INFO — check_number_of_rows:84 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:32:07,063 — Ads_logger — INFO — query_in_chunks:128 — -- Got 2000 values from column Data from table adsTable -- 
+2021-07-19 10:32:07,110 — Ads_logger — INFO — query_in_chunks:128 — -- Got 4000 values from column Data from table adsTable -- 
+2021-07-19 10:32:07,155 — Ads_logger — INFO — query_in_chunks:128 — -- Got 6000 values from column Data from table adsTable -- 
+2021-07-19 10:32:07,220 — Ads_logger — INFO — query_in_chunks:128 — -- Got 8000 values from column Data from table adsTable -- 
+2021-07-19 10:32:07,268 — Ads_logger — INFO — query_in_chunks:128 — -- Got 10000 values from column Data from table adsTable -- 
+2021-07-19 10:32:07,310 — Ads_logger — INFO — query_in_chunks:128 — -- Got 12000 values from column Data from table adsTable -- 
+2021-07-19 10:32:07,350 — Ads_logger — INFO — query_in_chunks:128 — -- Got 14000 values from column Data from table adsTable -- 
+2021-07-19 10:32:08,091 — Ads_logger — INFO — query_in_chunks:128 — -- Got 16000 values from column Data from table adsTable -- 
+2021-07-19 10:32:08,155 — Ads_logger — INFO — query_in_chunks:128 — -- Got 18000 values from column Data from table adsTable -- 
+2021-07-19 10:32:08,219 — Ads_logger — INFO — query_in_chunks:128 — -- Got 20000 values from column Data from table adsTable -- 
+2021-07-19 10:32:08,227 — Ads_logger — INFO — query_in_chunks:132 — -- Finished getting all data from column Data from table adsTable --
+2021-07-19 10:32:16,973 — Ads_logger — INFO — df_to_sql:94 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:32:17,093 — Ads_logger — INFO — wrapper:21 — ==============================sort_chunks Run Time: 10.091011300000002 seconds ==============================
+2021-07-19 10:32:17,093 — Ads_logger — INFO — sort_operation:69 —  #### ---- Finished Running sort operation No.2 ---- #### 
+2021-07-19 10:32:17,101 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:32:17,101 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:32:17,101 — Ads_logger — INFO — sort_operation:52 —  #### ---- Running sort operation No.3 ---- #### 
+2021-07-19 10:32:17,125 — Ads_logger — INFO — check_number_of_rows:84 —  ---- The table adsTable exists with 20000 rows ---- 
+2021-07-19 10:32:20,643 — Ads_logger — INFO — query_in_chunks_parallel:172 — -- Got 20000 values from column Data from table RESULTS -- 
+2021-07-19 10:32:20,643 — Ads_logger — INFO — query_in_chunks_parallel:175 — Got all data from column Data from table adsTable 
+2021-07-19 10:32:36,865 — Ads_logger — INFO — df_to_sql:94 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:32:36,865 — Ads_logger — INFO — sort_chunks_parallel:151 — -- Finished with Multi Processing -- Updated 20000 values in column Sorting-step3 in table RESULTS
+2021-07-19 10:32:53,139 — Ads_logger — INFO — df_to_sql:94 —  ---- Stored data into table named: RESULTS in the database: AdsDB ---- 
+2021-07-19 10:32:53,149 — Ads_logger — INFO — wrapper:21 — ==============================sort_chunks_parallel Run Time: 36.046572299999994 seconds ==============================
+2021-07-19 10:32:53,149 — Ads_logger — INFO — sort_operation:69 —  #### ---- Finished Running sort operation No.3 ---- #### 
+2021-07-19 10:32:53,149 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:32:53,153 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:33:03,206 — Ads_logger — INFO — __init__:28 —  ---- Connection to AdsDB Database is set with remote server ---- 
+2021-07-19 10:33:03,206 — Ads_logger — INFO — __init__:42 —  ---- Database session started. Connecting to AdsDB Database ---- 
+2021-07-19 10:33:03,206 — Ads_logger — INFO — close_connection:198 —  #### ---- Closing the connection to the database ---- ####
