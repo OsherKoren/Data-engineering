@@ -1,6 +1,4 @@
-# Data-engineering
-
-**Reauirements:
+# Reauirements:
 **Attached is a requirements.txt for more convenience.**
 
 Python version 3.9.5
@@ -31,18 +29,13 @@ six==1.16.0
 
 SQLAlchemy==1.4.20
 
-For printing the DataFrame in a more convenience way please add to Operations.py file the following lines:
+For printing the DataFrame in a more convenience way please add to Operations file the following lines:
 
 desired_width=320
-
 pd.set_option('display.width', desired_width)
-
 np.set_printoptions(linewidth=desired_width)
-
 pd.options.display.max_colwidth = 100
-
 pd.set_option('display.max_columns', 10)
-
 
 ## Guide for setup:
 Attached is a db_config.ini file with the DB credentials (configuration).
@@ -57,19 +50,19 @@ below is the setup steps.
 Setup steps for changing the current default configuration to local connection:
 1. Change the file local_db_config.ini with your local parameters:
 
-   driver
+driver, 
    
-   server name
+server name, 
 
-Any change of configuration should be applied in this file only -  local_db_config.ini
+Any change of configuration should be applied in this file only.
 
 2. Create a new database with the name: AdsDB on your local MS SQL SERVER.
 3. In DB.py file in DB __init__ constructor , change the default variable from local=False to local=True 
 
-## The Data
+##The Data
 Random ads data was constructed in the Operations.py file with the method: set_ads_table.
 
-## Description
+##Description
 The program performs 3 operations of sorting the ads as describes below:
 1) Standard sorting. 
 2) K way sorting with chunks. 
